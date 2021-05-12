@@ -1,0 +1,16 @@
+footer{
+    bottom:unset;
+    position:relative;
+    font-weight: bold;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding:auto;
+
+    
+  } 
+  .navbar nav.nav-item.a{
+    font: bold;
+    color: blue;
+  }

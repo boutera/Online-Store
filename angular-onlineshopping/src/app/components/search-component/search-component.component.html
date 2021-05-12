@@ -1,0 +1,6 @@
+<div class="navbar-nav   ml-2 shadow-sm ">
+  <input type="text" style="width: 450px;" placeholder="Search" #searchInput class="rounded rounded-pill form-control" autocomplete="off" [(ngModel)]=name
+    (keyup.enter)="searchitems(searchInput.value)" >
+  <button class="btn btn-secondary ml-2 rounded rounded-pill" (click)="searchitems(searchInput.value)" > Search</button>
+
+</div>

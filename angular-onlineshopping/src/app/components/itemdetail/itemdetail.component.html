@@ -1,0 +1,97 @@
+<div class="row">
+
+
+    <!-- /.col-lg-3 -->
+
+    <div class="col-lg-12">
+
+
+        <div class="row">
+
+            <div class="col-lg-6 ">
+                <div class="thumbnail">
+                    <img src="{{item.imageurl}}" alt="" />
+
+                </div>
+                <br>
+                <a routerLink="/category/{{category.id}}" class="btn btn-success rounded rounded-pill "><i class="fa fa-arrow-left"></i>
+                    Back</a>
+                <button (click)="addToCart()" class="btn btn-warning ml-2 rounded rounded-pill "><i class="fa fa-cart-arrow-down"></i> Add to
+                    cart</button>
+
+            </div>
+            <div class="col-lg-6">
+                <h3>{{item.name}}</h3>
+                <hr />
+                <p>{{item.description}}</p>
+                <ul>
+                    <li class="_21Ahn-">Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube</li>
+                    <li class="_21Ahn-">Operating System: Android (Google Assistant &amp; Chromecast in-built)</li>
+                    <li class="_21Ahn-">Resolution: Full HD 1920 x 1080 Pixels</li>
+                    <li class="_21Ahn-">Sound Output: 20 W</li>
+                    <li class="_21Ahn-">Refresh Rate: 60 Hz</li>
+                </ul>
+                <hr />
+
+                <h2>Specifications</h2>
+                <hr />
+
+
+                <tbody>
+                    <tr class="_1s_Smc row">
+                        <td class="_1hKmbr col col-3-12">In The Box</td>
+                        <td class="URwL2w col col-9-12">
+                            <ul>
+                                <li class="_21lJbe">LED TV 1 U Remote Control 1U Manual &
+                                    Warranty Card 1U Stand 1U ,Screws 4U</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="_1s_Smc row">
+                        <td class="_1hKmbr col col-3-12">Model Name</td>
+                        <td class="URwL2w col col-9-12">
+                            <ul>
+                                <li class="_21lJbe">L40M5-5AIN</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="_1s_Smc row">
+                        <td class="_1hKmbr col col-3-12">Display Size</td>
+                        <td class="URwL2w col col-9-12">
+                            <ul>
+                                <li class="_21lJbe">100 cm (40)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="_1s_Smc row">
+                        <td class="_1hKmbr col col-3-12">Screen Type</td>
+                        <td class="URwL2w col col-9-12">
+                            <ul>
+                                <li class="_21lJbe">LED</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="_1s_Smc row">
+                        <td class="_1hKmbr col col-3-12">HD Technology &amp; Resolution</td>
+                        <td class="URwL2w col col-9-12">
+                            <ul>
+                                <li class="_21lJbe">Full HD, 1920 x 1080 Pixels</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+
+                    <hr />
+                    <h5>Price:<strong>{{item.unitprice| currency:'INR'}}</strong></h5>
+                    <hr />
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
+<!-- /.row -->
